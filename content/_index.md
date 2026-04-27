@@ -14,9 +14,10 @@ sections:
 
             BLUG er støttet av næringslivet og privatpersoner i Bergen gjennom Organisasjonen for Fremme av Fri Programvare i Bergen og Omegn.
 
-            BLUG har møter med foredrag siste torsdag i måneden, og ellers møtes vi hver torsdag på Henrik for å prate om løst og fast.
+            BLUG har tradisjonelt hatt møter med foredrag siste torsdag i måneden, men det har vært lite aktivitet de siste årene. Vi ønsker å starte opp igjen med månedlige møter.
 
-            Ellers prates vi på e-postlisten eller på IRC: #BLUG på freenode
+            Ellers møtes vi hver torsdag på Henrik for å prate om løst og fast.
+
 
   - block: collection
     id: events
