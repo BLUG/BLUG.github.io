@@ -1,35 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rfc1149s on Bergen Linux User Group</title>
-    <link>https://www.blug.linux.no/rfc1149/</link>
-    <description>Recent content in Rfc1149s on Bergen Linux User Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 BLUG</copyright>
-    <lastBuildDate>Sat, 28 Apr 2001 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.blug.linux.no/rfc1149/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>The informal report from the RFC 1149 event</title>
-      <link>https://www.blug.linux.no/rfc1149/writeup/</link>
-      <pubDate>Sat, 28 Apr 2001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.blug.linux.no/rfc1149/writeup/</guid>
-      <description>Finally, rfc 1149 is implemented! On saturday 28th of april 2001, the worlds very first rfc 1149 network was tested. The weather was quite nice, despite being in one of the most rainy places in Norway.
-The ping was started approximately at 12:15. We decided to do a 7 1/2 minute interval between the ping packets, that would leave a couple of packets unanswered, given ideal situations. Things didn’t happen quite that way, though.</description>
-    </item>
-    
-    <item>
-      <title>Minutes from BOF #1 of the unofficial CPIP WG</title>
-      <link>https://www.blug.linux.no/rfc1149/minutes1/</link>
-      <pubDate>Fri, 06 Apr 2001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.blug.linux.no/rfc1149/minutes1/</guid>
-      <description>Participants  Svein Arne Rosendal Gjert Hole Peter N. M. Hansteen Karl Magnus Kolstø Vegard Engen  Agenda  Introduction to avian carriers (pigeons) Formation of a CPIP WG WG plan, responsibilities. Current and future activities. Pictures.  1. Introduction to Avian Carriers. Gjert Hole and Svein Arne Rosendal Gjert and Svein Arne gave us a thorough introduction to pigeons. We visited their pigeons, and took some pictures for documentation purposes.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rfc1149s | Bergen Linux User Group</title><link>https://www.blug.linux.no/rfc1149/</link><atom:link href="https://www.blug.linux.no/rfc1149/index.xml" rel="self" type="application/rss+xml"/><description>Rfc1149s</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Sat, 28 Apr 2001 00:00:00 +0000</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Rfc1149s</title><link>https://www.blug.linux.no/rfc1149/</link></image><item><title>The informal report from the RFC 1149 event</title><link>https://www.blug.linux.no/rfc1149/writeup/</link><pubDate>Sat, 28 Apr 2001 00:00:00 +0000</pubDate><guid>https://www.blug.linux.no/rfc1149/writeup/</guid><description>&lt;p&gt;Finally, rfc 1149 is implemented! On saturday 28th of april 2001, the worlds very first rfc 1149 network was tested. The weather was quite nice, despite being in one of the most rainy places in Norway.&lt;/p&gt;
+&lt;p&gt;The ping was started approximately at 12:15. We decided to do a 7 1/2 minute interval between the ping packets, that would leave a couple of packets unanswered, given ideal situations. Things didn&amp;rsquo;t happen quite that way, though. It happened that the neighbour had a flock of pigeons flying. Our pigeons didn&amp;rsquo;t want to go home at once, they wanted to fly with the other pigeons instead. And who can blame them, when the sun was finally shining after a couple of days?&lt;/p&gt;
+&lt;p&gt;But the instincts won at last, and after about an hour of fun, we could see a couple of pigeons breaking out of the flock and heading in the right direction. There was much cheering. Apparantly, it WAS our pigeons, because not long after, we got a report from the other site that the first pigeon was sitting on the roof.&lt;/p&gt;
+&lt;p&gt;And finally, the first return pigeon arrived. The packet was carefully removed from the leg, unrolled and scanned. After manually verifying the OCR and correcting the few mistakes (gocr is quite good, but it &lt;em&gt;did&lt;/em&gt; have problems recognizing F&amp;rsquo;s in my end), the packet was accepted as a valid packet, and there was much cheering about what we saw:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;64 bytes from 10.0.3.1: icmp_seq=0 ttl=255 time=6165731.1 ms
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The remaining pigeons arrived simultaneously. Two of them didn&amp;rsquo;t have any IP packets, though, it turned out that things had been so busy at the other end that they forgot to shut the pigeon cage, and the remaining two pigeons escaped without an IP packet. There was only six return pigeons, thus we got four ping replys, with ping times varying from 3211 to 6389 seconds. I guess this is a new record for ping times&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The implementation was declared a success. Now, we&amp;rsquo;re waiting for someone to write other implementations, so that we can do interoperability tests, and maybe we finally can get the RFC into the standards track&amp;hellip;&lt;/p&gt;</description></item><item><title>Minutes from BOF #1 of the unofficial CPIP WG</title><link>https://www.blug.linux.no/rfc1149/minutes1/</link><pubDate>Fri, 06 Apr 2001 00:00:00 +0000</pubDate><guid>https://www.blug.linux.no/rfc1149/minutes1/</guid><description>&lt;h2 id="participants"&gt;Participants&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Svein Arne Rosendal&lt;/li&gt;
+&lt;li&gt;Gjert Hole&lt;/li&gt;
+&lt;li&gt;Peter N. M. Hansteen&lt;/li&gt;
+&lt;li&gt;Karl Magnus Kolstø&lt;/li&gt;
+&lt;li&gt;Vegard Engen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="agenda"&gt;Agenda&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to avian carriers (pigeons)&lt;/li&gt;
+&lt;li&gt;Formation of a CPIP WG&lt;/li&gt;
+&lt;li&gt;WG plan, responsibilities.&lt;/li&gt;
+&lt;li&gt;Current and future activities.&lt;/li&gt;
+&lt;li&gt;Pictures.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="1-introduction-to-avian-carriers-gjert-hole-and-svein-arne-rosendal"&gt;1. Introduction to Avian Carriers. Gjert Hole and Svein Arne Rosendal&lt;/h2&gt;
+&lt;p&gt;Gjert and Svein Arne gave us a thorough introduction to pigeons. We visited their pigeons, and took some pictures for documentation purposes.&lt;/p&gt;
+&lt;h2 id="2-formation-of-cpip-wg"&gt;2. Formation of CPIP WG&lt;/h2&gt;
+&lt;p&gt;We all agreed that the project needs to be done. Members of the WG will be the participants of the meeting, possibly with more members added later.&lt;/p&gt;
+&lt;h2 id="3-wg-plan-responsibilities"&gt;3. WG plan, responsibilities.&lt;/h2&gt;
+&lt;p&gt;Svein Arne Rosendal and Gjert Hole agreed to take responsibility for research of the physical transmission of the avian carriers and the mechanism of attachment of the packets to the legs of the avian carriers. BLUG will take care of the interface between the computers and the avian carriers.&lt;/p&gt;
+&lt;p&gt;The due date of the implentation was set to april 28th 2001, when a public demonstration is to be held. This is subject to be dependent on weather conditions in april, for the training of the avian carriers.&lt;/p&gt;
+&lt;h2 id="4-current-and-future-activities"&gt;4. Current and future activities&lt;/h2&gt;
+&lt;p&gt;Karl Magnus and Vegard are in the process of acquiring scanners to be used, and will start researching OCR and Linux ASAP. Svein Arne and Gjert will find two suitable transmission endpoints and inform/ask the responsible persons at those locations. Svein Arne and Gjert will also start researching the attachment method of the packets to the legs of the pigeons.&lt;/p&gt;
+&lt;h2 id="5-pictures"&gt;5. Pictures&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/uploads/2014/09/due-gruppe.jpg" alt="Peter, Karl Magnus and Svein Arne in front of some pigeons" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/uploads/2014/09/due-utstyr.jpg" alt="Some modern and some historical equipment" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/uploads/2014/09/due-mating.jpg" alt="Svein Arne feeds the pigeons" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;</description></item></channel></rss>

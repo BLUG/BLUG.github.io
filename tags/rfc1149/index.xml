@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rfc1149 on Bergen Linux User Group</title>
-    <link>https://www.blug.linux.no/tags/rfc1149/</link>
-    <description>Recent content in Rfc1149 on Bergen Linux User Group</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 BLUG</copyright>
-    <lastBuildDate>Sat, 28 Apr 2001 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.blug.linux.no/tags/rfc1149/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>RFC 1149</title>
-      <link>https://www.blug.linux.no/project/rfc1149/</link>
-      <pubDate>Sat, 28 Apr 2001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.blug.linux.no/project/rfc1149/</guid>
-      <description>11 years ago, April 1st 1990, rfc 1149 was written. This rfc specifies a protocol for IP over avian carriers, CPIP (carrier pigeon internet protocol). In 11 years, noone has bothered to implement this important protocol stack. But happily, we don’t need to wait any longer! BLUG in cooperation with Vesta Brevdueforening has given you rfc 1149 support for Linux.
-Vital information Date: April 28 2001, 12:00 Place: Bergen Addresses: Lyngbøveien 61, contact: Audun Larsen.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rfc1149 | Bergen Linux User Group</title><link>https://www.blug.linux.no/tags/rfc1149/</link><atom:link href="https://www.blug.linux.no/tags/rfc1149/index.xml" rel="self" type="application/rss+xml"/><description>Rfc1149</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Sat, 28 Apr 2001 00:00:00 +0000</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Rfc1149</title><link>https://www.blug.linux.no/tags/rfc1149/</link></image><item><title>RFC 1149</title><link>https://www.blug.linux.no/project/rfc1149/</link><pubDate>Sat, 28 Apr 2001 00:00:00 +0000</pubDate><guid>https://www.blug.linux.no/project/rfc1149/</guid><description>&lt;p&gt;11 years ago, April 1st 1990, rfc 1149 was written. This rfc specifies a protocol for IP over avian carriers, CPIP (carrier pigeon internet protocol). In 11 years, noone has bothered to implement this important protocol stack. But happily, we don&amp;rsquo;t need to wait any longer! BLUG in cooperation with &lt;a href="http://dueforening.tripod.com/index.htm" target="_blank" rel="noopener"&gt;Vesta Brevdueforening&lt;/a&gt; has given you rfc 1149 support for Linux.&lt;/p&gt;
+&lt;h2 id="vital-information"&gt;Vital information&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Date: April 28 2001, 12:00
+Place: Bergen
+Addresses:
+Lyngbøveien 61, contact: Audun Larsen.
+Bråtet Terrasse 21, contact Kjell Haldorsen.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="details-from-the-actual-implementation-day"&gt;Details from the actual implementation day.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.blug.linux.no/rfc1149/writeup/"&gt;A preliminary writeup of the event&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.blug.linux.no/rfc1149/pinglogg.txt"&gt;Log of the ping session&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-details-and-links"&gt;Technical details and links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://web.archive.org/web/20140706035602/http://www.blug.linux.no/rfc1149/pigeonware-0.15.tar.gz" target="_blank" rel="noopener"&gt;The software being used&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ietf.org/rfc/rfc1149.txt?number=1149" target="_blank" rel="noopener"&gt;rfc 1149&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ietf.org/" target="_blank" rel="noopener"&gt;IETF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jocr.sourceforge.net/" target="_blank" rel="noopener"&gt;GOCR/JOCR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="minutes-from-bofs-birds-of-a-feathers"&gt;Minutes from BOFs (&amp;ldquo;Birds of a Feather&amp;quot;s)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.blug.linux.no/rfc1149/minutes1/"&gt;Minutes from the BOF on march 6th 2001&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
