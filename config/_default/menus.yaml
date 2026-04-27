@@ -11,6 +11,9 @@ main:
   - name: Presentasjoner
     url: '/#publications'
     weight: 5
+  - name: Medlemmer
+    url: '/#medlemmer'
+    weight: 5
   - name: Contact
     url: '/#contact'
     weight: 6

@@ -51,6 +51,17 @@ sections:
     design:
       view: card
 
+  - block: features
+    id: medlemmer
+    content:
+      title: Blogger og prosjekter
+      text: Fra våre medlemmer
+      items:
+        - icon: hero/globe-alt
+          description: "[bsdly.blogspot.com](https://bsdly.blogspot.com) — BSD, nettverkssikkerhet og e-postinfrastruktur. Forfatter av *The Book of PF*."
+        - icon: hero/globe-alt
+          description: "[blog.elzapp.com](https://blog.elzapp.com)"
+
   - block: contact-info
     id: contact
     content:
