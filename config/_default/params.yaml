@@ -2,6 +2,12 @@ appearance:
   theme_day: minimal
   font: native
 
+header:
+  navbar:
+    logo:
+      filename: blug_logo.png
+      text: BLUG
+
 marketing:
   seo:
     site_type: Organization
