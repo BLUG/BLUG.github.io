@@ -4,6 +4,12 @@ html {
   font-size: 18px;
 }
 
+/* Paragraph spacing in cta-image-paragraph block */
+#about .mt-4 p {
+  margin-bottom: 1em;
+  color: rgb(107 114 128); /* match text-gray-500 */
+}
+
 .video {
   position: relative;
   width: 100%;
