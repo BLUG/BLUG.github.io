@@ -5,6 +5,7 @@ enableEmoji: true
 paginate: 10
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
+buildFuture: true
 
 outputs:
   home:

@@ -38,10 +38,10 @@ mise run build
 
 ## Legge til et nytt møte
 
-Møter ligger i `content/event/`. Lag en ny fil med navn etter mønsteret `YYYY-MM-tema.md`:
+Møter ligger i `content/events/`. Lag en ny fil med navn etter mønsteret `YYYY-MM-tema.md`:
 
 ```bash
-cp content/event/2021-11-nextcloud.md content/event/2025-05-mittforedrag.md
+cp content/events/2021-11-nextcloud.md content/events/2025-05-mittforedrag.md
 ```
 
 Rediger frontmatteren (YAML mellom `---`) i den nye filen:

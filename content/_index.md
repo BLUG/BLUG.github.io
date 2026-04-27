@@ -26,7 +26,7 @@ sections:
       count: 10
       filters:
         folders:
-          - event
+          - events
     design:
       view: date-title-summary
 
