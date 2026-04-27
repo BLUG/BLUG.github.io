@@ -1,0 +1,16 @@
+main:
+  - name: Home
+    url: '/#about'
+    weight: 1
+  - name: Foredrag og møter
+    url: '/#events'
+    weight: 2
+  - name: Prosjekter
+    url: '/#projects'
+    weight: 4
+  - name: Presentasjoner
+    url: '/#publications'
+    weight: 5
+  - name: Contact
+    url: '/#contact'
+    weight: 6

@@ -1,0 +1,18 @@
+[tools]
+hugo-extended = "latest"
+go = "latest"
+node = "latest"
+
+[tasks.install]
+description = "Install npm dependencies"
+run = "npm ci"
+
+[tasks.build]
+description = "Build the site for production"
+depends = ["install"]
+run = "hugo --minify"
+
+[tasks.serve]
+description = "Start the development server"
+depends = ["install"]
+run = "hugo server"

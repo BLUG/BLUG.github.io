@@ -1,0 +1,28 @@
+baseURL: "https://www.blug.linux.no/"
+title: "Bergen Linux User Group"
+copyright: "&copy; 2017 BLUG"
+enableEmoji: true
+paginate: 10
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+
+build:
+  writeStats: true

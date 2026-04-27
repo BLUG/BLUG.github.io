@@ -1,0 +1,23 @@
+appearance:
+  theme_day: minimal
+  font: native
+
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'Bergen Linux User Group'
+    description: 'BLUG - Bergen Linux (and BSD) User Group'
+
+site_footer:
+  copyright: "&copy; {year} BLUG"
+
+locale:
+  date_format: '2006-01-02'
+  time_format: '15:04'
+
+features:
+  math:
+    enable: false
+  syntax_highlight:
+    enable: true

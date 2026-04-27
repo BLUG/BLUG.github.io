@@ -3,24 +3,21 @@ name: github pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - master
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
 
-      - name: Setup Hugo
-        run: curl -sL https://github.com/gohugoio/hugo/releases/download/v0.60.0/hugo_0.60.0_Linux-64bit.tar.gz|tar xz hugo
-          # extended: true
+      - uses: jdx/mise-action@v2
 
       - name: Build
-        run: ./hugo --minify
+        run: mise run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
