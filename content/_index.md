@@ -59,6 +59,9 @@ sections:
       items:
         - icon: hero/globe-alt
           description: "[bsdly.blogspot.com](https://bsdly.blogspot.com) — BSD, nettverkssikkerhet og e-postinfrastruktur. Forfatter av *The Book of PF*."
+        - icon: hero/book-open
+          name: ""
+          description: "[The Book of PF](https://nostarch.com/book-of-pf-4e) — Peter N.M. Hansteens bok om PF-brannmuren, nå i 4. utgave."
         - icon: hero/globe-alt
           description: "[blog.elzapp.com](https://blog.elzapp.com)"
 
