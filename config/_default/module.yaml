@@ -2,3 +2,22 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
     disable: true
+mounts:
+  - source: content
+    target: content
+  - source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: data
+    target: data
+  - source: assets
+    target: assets
+  - source: i18n
+    target: i18n
+  - source: archetypes
+    target: archetypes
+  - source: blox
+    target: layouts/partials/hbx/blocks
+    includeFiles:
+      - '**/block.html'
