@@ -2,6 +2,7 @@
 hugo-extended = "latest"
 go = "latest"
 node = "latest"
+python = "latest"
 
 [tasks.install]
 description = "Install npm dependencies"
