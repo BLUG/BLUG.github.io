@@ -20,13 +20,41 @@ sections:
 
 
   - block: collection
-    id: events
+    id: next-event
     content:
-      title: Foredrag og Møter
+      title: Neste møte
+      count: 1
+      sort_ascending: true
+      filters:
+        folders:
+          - events
+        exclude_past: true
+    design:
+      view: event-card
+
+  - block: collection
+    id: upcoming-events
+    content:
+      title: Kommende møter
+      count: 10
+      offset: 1
+      sort_ascending: true
+      filters:
+        folders:
+          - events
+        exclude_past: true
+    design:
+      view: date-title-summary
+
+  - block: collection
+    id: past-events
+    content:
+      title: Tidligere møter
       count: 10
       filters:
         folders:
           - events
+        exclude_future: true
     design:
       view: date-title-summary
 
