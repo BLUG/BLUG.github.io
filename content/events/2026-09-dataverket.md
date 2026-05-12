@@ -7,7 +7,7 @@ date_end: "2026-09-24T21:00:00+02:00"
 publishDate: "2026-05-11T00:00:00+02:00"
 summary: "Hvem driver kontrollplanet for sky og datasenter, under hvem sin administrative myndighet, og hvordan kan flere norske operatører spare tid og penger ved å dele samme grunnmønster uten å sentralisere makt?"
 event: "BLUG"
-location: "Media City Bergen - 'Pressekonferanse-rommet'"
+location: "TBA"
 authors:
   - "Jan Ivar Beddari"
 featured: true
@@ -15,7 +15,7 @@ image:
   filename: poster-2026-09.png
 ---
 
-Bergen (BSD and) Linux User Group fortsetter møteserien "Last Thursday", i samarbeid med Vizrt.
+Bergen (BSD and) Linux User Group fortsetter møteserien "Last Thursday".
 
 Norge har sterke åpne plattformer på applikasjonslaget - men de bygger alle stort sett på en infrastruktur noen andre leverer. Med digital suverenitet, NIS2 og sikkerhetsloven på agendaen mener jeg laget under et et stort spørsmålstegn: hvem driver kontrollplanet for sky og datasenter, under hvem sin administrative myndighet, og hvordan kan flere norske operatører spare tid og penger ved å dele samme grunnmønster uten å sentralisere makt?
 
@@ -29,6 +29,4 @@ Jan Ivar Beddari er åpen kildekode-entusiast bosatt i Volda, med 20 års erfari
 
 ## Praktisk
 
-Denne gangen er vi i **Pressekonferanse-rommet** på **Media City Bergen**, rommet befinner seg i første etasje. Møtet starter kl 19:00.
-
-!["Kart over MCB"](/img/mcb_kart.png "Map")
+Det er ikke enda avklart hvor vi kommer til å holde dette møtet. Pressekonferanserommet på MCP der vi vanligvis avholder møtene våre er opptatt.
