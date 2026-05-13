@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Sovereignty | Bergen Linux User Group</title><link>https://www.blug.linux.no/tags/digital-sovereignty/</link><atom:link href="https://www.blug.linux.no/tags/digital-sovereignty/index.xml" rel="self" type="application/rss+xml"/><description>Digital Sovereignty</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Thu, 24 Sep 2026 19:00:00 +0200</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Digital Sovereignty</title><link>https://www.blug.linux.no/tags/digital-sovereignty/</link></image><item><title>Norsk sky for alle? Dataverket - en vei mot et føderert kontrollplan</title><link>https://www.blug.linux.no/events/2026-09-dataverket/</link><pubDate>Thu, 24 Sep 2026 19:00:00 +0200</pubDate><guid>https://www.blug.linux.no/events/2026-09-dataverket/</guid><description>&lt;p&gt;Bergen (BSD and) Linux User Group fortsetter møteserien &amp;ldquo;Last Thursday&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Norge har sterke åpne plattformer på applikasjonslaget - men de bygger alle stort sett på en infrastruktur noen andre leverer. Med digital suverenitet, NIS2 og sikkerhetsloven på agendaen mener jeg laget under et et stort spørsmålstegn: hvem driver kontrollplanet for sky og datasenter, under hvem sin administrative myndighet, og hvordan kan flere norske operatører spare tid og penger ved å dele samme grunnmønster uten å sentralisere makt?&lt;/p&gt;
+&lt;p&gt;Foredraget presenterer Dataverket - et kontrollplan med sikkerhet forankret i transportlaget (NATS), i identitet (Zitadel), og i uforanderlige operativsystem (Talos, Incus-OS). Jo færre linjer kode, jo billigere vedlikehold over tid. Erfaringen er at dette faktisk stemmer!&lt;/p&gt;
+&lt;p&gt;Visjonen er et «FEIDE for infrastruktur»: federert mellom norske operatører, ikke sentralisert hos én. Vi ser på arkitekturpremissene, hvorfor de gjør sertifisering mot f.eks ISO 27001 og NIS2 vesentlig billigere enn dagens alternativer, og hva som skal til for at det norske åpen kildekode-fellesskapet kan bygge dette sammen.&lt;/p&gt;
+&lt;h2 id="om-foredragsholderen"&gt;Om foredragsholderen&lt;/h2&gt;
+&lt;p&gt;Jan Ivar Beddari er åpen kildekode-entusiast bosatt i Volda, med 20 års erfaring fra norsk og europeisk skyinfrastruktur. Han var teknisk drivkraft i etableringsfasen av UH-sky / NREC, og har deretter hatt mange roller i ti år hos den europeiske skyleverandøren Safespring. Han ledet moderniseringen av plattformarkitekturen og bygde leveransen til European Open Science Cloud (EOSC). I 2026 startet han prosjektet Dataverket, et åpent kontrollplan for datasenter- og skyinfrastruktur. Han snakket om suveren norsk sky på Cloud Native Bergen 2025 og håper å gjøre det samme i år også!&lt;/p&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Det er ikke enda avklart hvor vi kommer til å holde dette møtet. Pressekonferanserommet på MCP der vi vanligvis avholder møtene våre er opptatt.&lt;/p&gt;</description></item><item><title>Why Open Source is the key for Privacy and Digital Sovereignty</title><link>https://www.blug.linux.no/events/2021-11-nextcloud/</link><pubDate>Tue, 02 Nov 2021 18:30:00 +0100</pubDate><guid>https://www.blug.linux.no/events/2021-11-nextcloud/</guid><description>&lt;p&gt;Månedens møte arrangeres i samarbeid med Norwegian Unix User Group (NUUG), som har møte med
+samme emne og foredragsholder&lt;/p&gt;
+&lt;p&gt;The security and the personal data on the internet are under attack
+by hackers and international espionage programs. The question who
+controls what data and application becomes more important every day.
+And governments care more and more about Digital Sovereignty and how
+this effects to future of countries.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uySHVSO1ZVg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;The GDPR was suppose to give people more control over their data.
+But now that the European Court of Justice declared the US CloudAct
+incompatible with the GDPR the questions rises how data should be
+stored and processed in the future.&lt;/p&gt;
+&lt;p&gt;The Nextcloud community is build an open source and fully federated
+and distributed network for files and communication. Everyone can
+run an Nextcloud server at home or somewhere on the internet and
+collaborate and share with everyone else. Nextcloud can be used to
+provide file access, syncing, sharing, calendar, contacts, video
+calling, music and video streaming in a distributed way.&lt;/p&gt;
+&lt;p&gt;This talk will cover the current problems with surveillance and
+espionage and strategies on how to fix this problem. It will also
+discuss the current and upcoming federation features of Nextcloud
+and how to become part of the community.&lt;/p&gt;
+&lt;p&gt;Dette er noe du må få med deg på møte eller på videooverføring av
+foredragene.&lt;/p&gt;
+&lt;h2 id="frank-karlitschek"&gt;Frank Karlitschek&lt;/h2&gt;
+&lt;p&gt;Frank Karlitschek is a long time open source developer and
+former board member of the KDE e.V. In 2016 he founded Nextcloud
+to create a fully open source and decentralized alternative to
+big centralized US cloud companies. In 2012 he initiated the
+User Data Manifesto to define basic human rights regarding
+personal data. Frank was an invited expert at the W3C to help to
+create the ActivityPub internet standard. Frank has spoken at
+MIT, CERN, Harvard and ETH and keynoted several conferences.
+Frank is the founder and CEO of Nextcloud GmbH. He is also a
+fellow of Open Forum Europe and an advisor to the United Nations
+regarding Intellectual Property and Open Source.&lt;/p&gt;
+&lt;p&gt;Vurder også å melde deg inn i NUUG slik at vi kan arrangere enda
+flere spennende foredrag. Meld deg inn på
+&lt;a href="https://www.nuug.no/innmelding.shtml" target="_blank" rel="noopener"&gt;https://www.nuug.no/innmelding.shtml&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Denne gangen er vi i &lt;strong&gt;Pressekonferanse-rommet&lt;/strong&gt; på &lt;strong&gt;Media City Bergen&lt;/strong&gt;, rommet befinner seg i første etasje, mot tårn 1 og har kapasitet til 44 gjester. Vi har rommet til disposisjon til kl 20:30.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-map"&gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/mcb_kart.png" alt="&amp;ldquo;Kart over MCB&amp;rdquo;" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Map
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I foajeen er det kaffebar med skjenkebevilling og et enkelt mattilbud. Ta gjerne med deg noe leske inn.&lt;/p&gt;
+&lt;p&gt;Foredraget vil sannsynligvis bli filmet, og streamet live på YouTube.&lt;/p&gt;</description></item></channel></rss>

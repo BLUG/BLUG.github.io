@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Codecs | Bergen Linux User Group</title><link>https://www.blug.linux.no/tags/codecs/</link><atom:link href="https://www.blug.linux.no/tags/codecs/index.xml" rel="self" type="application/rss+xml"/><description>Codecs</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Fri, 26 Apr 2019 17:00:00 +0200</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Codecs</title><link>https://www.blug.linux.no/tags/codecs/</link></image><item><title>Fighting for free video</title><link>https://www.blug.linux.no/events/2020-04-monty/</link><pubDate>Fri, 26 Apr 2019 17:00:00 +0200</pubDate><guid>https://www.blug.linux.no/events/2020-04-monty/</guid><description>&lt;h2 id="fighting-for-free-video---technical-tactics-and-war-stories-from-the-foss-audio-and-video-codec-frontier"&gt;Fighting for free video - technical tactics and war stories from the FOSS audio and video codec frontier&lt;/h2&gt;
+&lt;p&gt;Månedens møte arrangeres i samarbeid med Norwegian Unix User Group (NUUG), som har møte med
+samme emne og foredragsholder&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Onsdag 24. april 2019 kl. 17.00
+Store Studio, NRK, Marienlyst, Oslo
+Dette møtet blir også livesteamet,
+se https://www.nuug.no/aktiviteter/20190424-foss-video/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;First they came for ARC. Free software replaced it. Then they came
+for GIF. Free software replaced it. Then they came for MP3. What
+on Earth did they expect Free software to do?&lt;/p&gt;
+&lt;p&gt;MPEG played it a little smarter than SEA or CompuServe. Threatened
+lawsuits never happened; they simply hung in the air like the
+Sword of Damocles, poisoning the market waters. As intended, this
+boxed out the Free MP3 encoder projects, the people directly
+responsible for MP3&amp;rsquo;s growing success. And the rest of the world
+mostly continued treating MP3 like a &amp;lsquo;free&amp;rsquo; format and mostly
+didn&amp;rsquo;t get sued. Mostly.&lt;/p&gt;
+&lt;p&gt;But the Free codec hackers did not forget, and thus far we choose
+not to forgive.&lt;/p&gt;
+&lt;p&gt;I present recollections, technical asides, and unsubstantiable
+gossip in an intentionally one-sided history of the codec
+wars. From the early days of LAME to the dawning story of the new
+AV1, come hear about the tactics and maneuvers of Free codec
+development.&lt;/p&gt;
+&lt;h3 id="christopher-monty-montgomery"&gt;Christopher (Monty) Montgomery&lt;/h3&gt;
+&lt;p&gt;has been professionally active in audio and compression since 1993.
+He founded Xiph.Org in 1994 and began the Vorbis codec in 1998,
+shortly after Fraunhofer IIS and Thomson Multimedia threatened legal
+action against FOSS MP3 encoder projects.&lt;/p&gt;
+&lt;p&gt;Over time Monty and Xiph.Org have developed or contributed to
+other Free and Open Source codecs such as Speex, FLAC, Theora,
+Daala, CELT, Opus, and AV1. Monty&amp;rsquo;s other software includes
+CDParanoia and Postfish, and he&amp;rsquo;s contributed to Audacity and
+Cinelerra in the service of musical theater, video, and stage
+production.&lt;/p&gt;
+&lt;p&gt;Monty holds a B.S. in Electrical Engineering and Computer Science
+with a concentration in music from the Massachusetts Institute of
+Technology and a M.Eng. in Computer Engineering from Tokyo
+Institute of Technology. He is currently a research engineer at
+the Mozilla Corporation, where he works on digital media
+standards.&lt;/p&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Denne gangen er vi i &lt;strong&gt;Pressekonferanse-rommet&lt;/strong&gt; på &lt;strong&gt;Media City Bergen&lt;/strong&gt;, rommet befinner seg i første etasje, mot tårn 1 og har kapasitet til 44 gjester. Vi har rommet til disposisjon til kl 20:30.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-map"&gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/mcb_kart.png" alt="&amp;ldquo;Kart over MCB&amp;rdquo;" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Map
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I foajeen er det kaffebar med skjenkebevilling og et enkelt mattilbud. Ta gjerne med deg noe leske inn.&lt;/p&gt;
+&lt;p&gt;Foredraget vil sannsynligvis bli filmet, og streamet live på YouTube.&lt;/p&gt;</description></item></channel></rss>

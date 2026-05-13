@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nextcloud | Bergen Linux User Group</title><link>https://www.blug.linux.no/tags/nextcloud/</link><atom:link href="https://www.blug.linux.no/tags/nextcloud/index.xml" rel="self" type="application/rss+xml"/><description>Nextcloud</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Tue, 02 Nov 2021 18:30:00 +0100</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Nextcloud</title><link>https://www.blug.linux.no/tags/nextcloud/</link></image><item><title>Why Open Source is the key for Privacy and Digital Sovereignty</title><link>https://www.blug.linux.no/events/2021-11-nextcloud/</link><pubDate>Tue, 02 Nov 2021 18:30:00 +0100</pubDate><guid>https://www.blug.linux.no/events/2021-11-nextcloud/</guid><description>&lt;p&gt;Månedens møte arrangeres i samarbeid med Norwegian Unix User Group (NUUG), som har møte med
+samme emne og foredragsholder&lt;/p&gt;
+&lt;p&gt;The security and the personal data on the internet are under attack
+by hackers and international espionage programs. The question who
+controls what data and application becomes more important every day.
+And governments care more and more about Digital Sovereignty and how
+this effects to future of countries.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/uySHVSO1ZVg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;The GDPR was suppose to give people more control over their data.
+But now that the European Court of Justice declared the US CloudAct
+incompatible with the GDPR the questions rises how data should be
+stored and processed in the future.&lt;/p&gt;
+&lt;p&gt;The Nextcloud community is build an open source and fully federated
+and distributed network for files and communication. Everyone can
+run an Nextcloud server at home or somewhere on the internet and
+collaborate and share with everyone else. Nextcloud can be used to
+provide file access, syncing, sharing, calendar, contacts, video
+calling, music and video streaming in a distributed way.&lt;/p&gt;
+&lt;p&gt;This talk will cover the current problems with surveillance and
+espionage and strategies on how to fix this problem. It will also
+discuss the current and upcoming federation features of Nextcloud
+and how to become part of the community.&lt;/p&gt;
+&lt;p&gt;Dette er noe du må få med deg på møte eller på videooverføring av
+foredragene.&lt;/p&gt;
+&lt;h2 id="frank-karlitschek"&gt;Frank Karlitschek&lt;/h2&gt;
+&lt;p&gt;Frank Karlitschek is a long time open source developer and
+former board member of the KDE e.V. In 2016 he founded Nextcloud
+to create a fully open source and decentralized alternative to
+big centralized US cloud companies. In 2012 he initiated the
+User Data Manifesto to define basic human rights regarding
+personal data. Frank was an invited expert at the W3C to help to
+create the ActivityPub internet standard. Frank has spoken at
+MIT, CERN, Harvard and ETH and keynoted several conferences.
+Frank is the founder and CEO of Nextcloud GmbH. He is also a
+fellow of Open Forum Europe and an advisor to the United Nations
+regarding Intellectual Property and Open Source.&lt;/p&gt;
+&lt;p&gt;Vurder også å melde deg inn i NUUG slik at vi kan arrangere enda
+flere spennende foredrag. Meld deg inn på
+&lt;a href="https://www.nuug.no/innmelding.shtml" target="_blank" rel="noopener"&gt;https://www.nuug.no/innmelding.shtml&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Denne gangen er vi i &lt;strong&gt;Pressekonferanse-rommet&lt;/strong&gt; på &lt;strong&gt;Media City Bergen&lt;/strong&gt;, rommet befinner seg i første etasje, mot tårn 1 og har kapasitet til 44 gjester. Vi har rommet til disposisjon til kl 20:30.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-map"&gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/mcb_kart.png" alt="&amp;ldquo;Kart over MCB&amp;rdquo;" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Map
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I foajeen er det kaffebar med skjenkebevilling og et enkelt mattilbud. Ta gjerne med deg noe leske inn.&lt;/p&gt;
+&lt;p&gt;Foredraget vil sannsynligvis bli filmet, og streamet live på YouTube.&lt;/p&gt;</description></item></channel></rss>

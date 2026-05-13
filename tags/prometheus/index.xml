@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prometheus | Bergen Linux User Group</title><link>https://www.blug.linux.no/tags/prometheus/</link><atom:link href="https://www.blug.linux.no/tags/prometheus/index.xml" rel="self" type="application/rss+xml"/><description>Prometheus</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-US</language><copyright>© 2017 BLUG</copyright><lastBuildDate>Thu, 28 Mar 2019 18:30:00 +0100</lastBuildDate><image><url>https://www.blug.linux.no/media/icon_hu_526dddd7da589f21.png</url><title>Prometheus</title><link>https://www.blug.linux.no/tags/prometheus/</link></image><item><title>Monitorering med Prometheus</title><link>https://www.blug.linux.no/events/2019-03-prometheus/</link><pubDate>Thu, 28 Mar 2019 18:30:00 +0100</pubDate><guid>https://www.blug.linux.no/events/2019-03-prometheus/</guid><description>&lt;p&gt;Prometheus er et OSS system for monitorering av tjenester og
+systemer. Opprinnelig utviklet av SoundCloud i 2012 og ble fra 2016
+medlem av Clound Native Computing Foundation&lt;/p&gt;
+&lt;p&gt;Prometheus skiller seg fra andre monitoreringssystemer med at den
+implementerer en dimensjonal datamodell hvor tidsserier identifiseres
+med et navn og et sett med key-value nøkkelpar. PromQL er
+spørrespråket som tillater å søke inn i tidsserier og massere
+innsamlet data for presentasjon og alarmer.&lt;/p&gt;
+&lt;p&gt;Der Prometheus skiller seg mest er det rike økosystemet med
+integrasjoner. Med over 200 client for ulike programmeringsspråk og
+rammeverker og snart 2000 integrasjoner med 3 parts programvare i
+tilegg til at mange nå kommer med innebygget støtte for Prometheus
+metrics.&lt;/p&gt;
+&lt;p&gt;I denne presentasjonen vil vi gi en introduksjon til hvordan du kan
+samle inn data fra maskiner og applikasjoner for så å komponere
+spørringer mot disse dataene med prometheus sitt eget språk PromQL for
+å genere grafer.&lt;/p&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Denne gangen er vi i &lt;strong&gt;Pressekonferanse-rommet&lt;/strong&gt; på &lt;strong&gt;Media City Bergen&lt;/strong&gt;, rommet befinner seg i første etasje, mot tårn 1 og har kapasitet til 44 gjester. Vi har rommet til disposisjon til kl 20:30.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-map"&gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/mcb_kart.png" alt="&amp;ldquo;Kart over MCB&amp;rdquo;" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Map
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I foajeen er det kaffebar med skjenkebevilling og et enkelt mattilbud. Ta gjerne med deg noe leske inn.&lt;/p&gt;
+&lt;p&gt;Foredraget vil sannsynligvis bli filmet, og streamet live på YouTube.&lt;/p&gt;</description></item></channel></rss>
