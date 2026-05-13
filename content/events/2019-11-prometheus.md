@@ -6,6 +6,8 @@ date: "2019-01-31T18:30:00+01:00"
 date_end: "2019-01-31T20:30:00+01:00"
 publishDate: "2019-01-08T10:00:00+01:00"
 summary: "Kryss-kompilering med GCC på godt og vondt"
+tags:
+  - CI/CD
 event: "BLUG"
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/257889778/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"

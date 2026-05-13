@@ -5,6 +5,10 @@ title: "KeyCloak - Open Source Identity and Access Management"
 date: "2018-08-30T18:30:00+02:00"
 date_end: "2018-08-30T20:30:00+02:00"
 summary: "KeyCloak - Open Source Identity and Access Management"
+tags:
+  - IAM 
+  - OpenId
+  - IDP
 event: "BLUG"
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/252187629/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"

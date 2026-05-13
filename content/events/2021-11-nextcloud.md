@@ -9,8 +9,14 @@ summary: "Why Open Source is the key for Privacy and Digital Sovereignty"
 event: "BLUG"
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/281596607/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
+tags:
+  - Digital Sovereignty
+  - Nextcloud
+  - Sovereign Cloud
 authors:
   - "Frank Karlitschek"
+partners:
+  - NUUG
 featured: true
 links:
   - name: MeetUp

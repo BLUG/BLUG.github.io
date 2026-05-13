@@ -6,6 +6,10 @@ date: "2026-09-24T19:00:00+02:00"
 date_end: "2026-09-24T21:00:00+02:00"
 publishDate: "2026-05-11T00:00:00+02:00"
 summary: "Hvem driver kontrollplanet for sky og datasenter, under hvem sin administrative myndighet, og hvordan kan flere norske operatører spare tid og penger ved å dele samme grunnmønster uten å sentralisere makt?"
+tags:
+  - Dataverket
+  - Sovereign Cloud
+  - Digital Sovereignty
 event: "BLUG"
 location: "TBA"
 authors:

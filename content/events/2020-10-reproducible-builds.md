@@ -8,6 +8,9 @@ summary: "Morten skal snakke om Reproducible Builds, som handler om å gjøre al
 event: "BLUG"
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/257889778/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
+tags:
+  - CI/CD
+  - Reproducible Builds
 authors:
   - "Morten Linderud"
 featured: true

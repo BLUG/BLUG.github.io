@@ -6,6 +6,9 @@ date: "2019-03-28T18:30:00+01:00"
 date_end: "2019-03-28T20:30:00+01:00"
 publishDate: "2018-11-25T00:00:00+01:00"
 summary: "Monitorering med Prometheus"
+tags:
+  - Observability
+  - Prometheus
 event: "BLUG"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
 authors:

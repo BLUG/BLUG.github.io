@@ -6,6 +6,8 @@ date: "2018-05-31T18:30:00+02:00"
 date_end: "2018-05-31T20:30:00+02:00"
 summary: "Utvikling av storskala overvåkingsløsning basert på tjenester med åpen kildekode"
 event: "BLUG"
+tags:
+  - Observability
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/247414994/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
 authors:

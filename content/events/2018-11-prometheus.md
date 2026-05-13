@@ -7,6 +7,9 @@ date_end: "2018-11-29T20:30:00+01:00"
 publishDate: "2018-11-25T00:00:00+01:00"
 summary: "Monitorering med Prometheus"
 event: "BLUG"
+tags:
+  - Observability
+  - Prometheus
 event_url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/256593163/"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
 authors:
@@ -17,6 +20,7 @@ image:
 links:
   - name: MeetUp
     url: "https://www.meetup.com/Bergen-Linux-and-BSD-User-Group/events/256593163/"
+draft: true
 ---
 
 Prometheus er et OSS system for monitorering av tjenester og
