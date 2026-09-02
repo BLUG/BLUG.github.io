@@ -11,7 +11,7 @@ tags:
   - Sovereign Cloud
   - Digital Sovereignty
 event: "BLUG"
-location: "TBA"
+location: "Krinkelkroken 1 (Ambita)"
 authors:
   - "Jan Ivar Beddari"
 featured: true
@@ -19,7 +19,7 @@ image:
   filename: poster-2026-09.png
 ---
 
-Bergen (BSD and) Linux User Group fortsetter møteserien "Last Thursday".
+Bergen (BSD and) Linux User Group fortsetter møteserien "Last Thursday" i samarbeid med Ambita.
 
 Norge har sterke åpne plattformer på applikasjonslaget - men de bygger alle stort sett på en infrastruktur noen andre leverer. Med digital suverenitet, NIS2 og sikkerhetsloven på agendaen mener jeg laget under et et stort spørsmålstegn: hvem driver kontrollplanet for sky og datasenter, under hvem sin administrative myndighet, og hvordan kan flere norske operatører spare tid og penger ved å dele samme grunnmønster uten å sentralisere makt?
 
@@ -33,4 +33,6 @@ Jan Ivar Beddari er åpen kildekode-entusiast bosatt i Volda, med 20 års erfari
 
 ## Praktisk
 
-Det er ikke enda avklart hvor vi kommer til å holde dette møtet. Pressekonferanserommet på MCP der vi vanligvis avholder møtene våre er opptatt.
+Møtet blir avholdt i auditoriet til Ambita i [Krinkelkroken 1](https://maps.earth/place/openaddresses%3Aaddress%3Ano%2F46%2Fstatewide-addresses-state%3Aa55810de6efa1f52).
+
+Vi vil stå i døren fra ca 18:50 til 19:00 for å slippe folk inn. Sannsynligvis et par minutter over også. Det vil også henges opp en lapp med telefonnummer du kan ringe for å bli sluppet inn.
