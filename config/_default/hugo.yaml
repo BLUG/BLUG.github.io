@@ -20,6 +20,17 @@ markup:
     style: github
 
 security:
+  # Replaces Hugo's default allow list rather than appending to it, so the
+  # built-in entries are repeated here. Hugo v0.165.0 dropped ^tailwindcss$
+  # from the defaults; css.TailwindCSS needs it to run.
+  exec:
+    allow:
+      - ^(dart-)?sass$
+      - ^go$
+      - ^git$
+      - ^node$
+      - ^postcss$
+      - ^tailwindcss$
   funcs:
     getenv:
       - ^HUGO_
