@@ -15,10 +15,12 @@ Du kan melde deg på direkte fra siden til listen. For å melde deg av må du lo
 
 Du kan også melde deg på eller av ved å sende en tom e-post fra adressen det gjelder:
 
-| Liste | Meld deg på | Meld deg av |
-| --- | --- | --- |
-| blug | [blug-subscribe@blug.linux.no](mailto:blug-subscribe@blug.linux.no) | [blug-unsubscribe@blug.linux.no](mailto:blug-unsubscribe@blug.linux.no) |
-| blug-kernel | [blug-kernel-subscribe@blug.linux.no](mailto:blug-kernel-subscribe@blug.linux.no) | [blug-kernel-unsubscribe@blug.linux.no](mailto:blug-kernel-unsubscribe@blug.linux.no) |
+- **blug** 
+  - Påmelding: [blug-subscribe@blug.linux.no](mailto:blug-subscribe@blug.linux.no) 
+  - Avmelding: [blug-unsubscribe@blug.linux.no](mailto:blug-unsubscribe@blug.linux.no)
+- **blug-kernel**
+  - Påmelding: [blug-kernel-subscribe@blug.linux.no](mailto:blug-kernel-subscribe@blug.linux.no)
+  - Avmelding: [blug-kernel-unsubscribe@blug.linux.no](mailto:blug-kernel-unsubscribe@blug.linux.no)
 
 Mailman sender deg en e-post med instruksjoner for å bekrefte forespørselen.
 
