@@ -6,7 +6,7 @@ python = "latest"
 
 [tasks.install]
 description = "Install npm dependencies"
-run = "npm ci"
+run = "npm ci --no-audit"
 
 [tasks.build]
 description = "Build the site for production"
