@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+<meta name="description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ $inter := resources.Get "css/Inter-4.1/web/inter.css" -}}
+{{ $style := resources.Get "css/style.css" -}}
+{{ with slice $inter $style | resources.Concat "css/bundle.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ .RelPermalink }}">
+{{ end -}}
+{{ with .OutputFormats.Get "RSS" -}}
+<link rel="alternate" type="{{ .MediaType }}" href="{{ .Permalink }}" title="{{ site.Title }}">
+{{ end -}}
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Params.summary }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta name="fediverse:creator" content="@blug@cyberplace.social">

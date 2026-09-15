@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bergen Linux User Group//BLUG//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:{{ site.Title }}
+X-WR-TIMEZONE:Europe/Oslo
+{{ range .Pages -}}
+BEGIN:VEVENT
+UID:{{ .Permalink }}
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+DTSTART:{{ .Date.UTC.Format "20060102T150405Z" }}
+{{ with .Params.date_end -}}
+DTEND:{{ (time .).UTC.Format "20060102T150405Z" }}
+{{ end -}}
+SUMMARY:{{ .Title }}
+URL:{{ .Permalink }}
+{{ with .Params.location -}}
+LOCATION:{{ . }}
+{{ end -}}
+{{ with .Params.summary -}}
+DESCRIPTION:{{ . }}
+{{ end -}}
+END:VEVENT
+{{ end -}}
+END:VCALENDAR

@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<dl aria-label="Møteinformasjon">
+  {{- if .Date | and (not .Params.hide_date) }}
+  <dt>Dato</dt>
+  <dd><time aria-label="Starttidspunkt" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2006-01-02 15:04" }}</time>{{ with .Params.date_end }} – <time aria-label="Sluttidspunkt" datetime="{{ (time .).Format "2006-01-02T15:04:05Z07:00" }}">{{ . | time.Format "2006-01-02 15:04" }}</time>{{ end }}</dd>
+  {{- end }}
+
+  {{- with .Params.authors }}
+  <dt>Foredragsholder</dt>
+  <dd>{{ delimit . ", " }}</dd>
+  {{- end }}
+
+  {{- with .Params.event }}
+  <dt>Arrangement</dt>
+  <dd>{{ with $.Params.event_url }}<a href="{{ . }}">{{ end }}{{ $.Params.event }}{{ with $.Params.event_url }}</a>{{ end }}</dd>
+  {{- end }}
+
+  {{- with .Params.location }}
+  <dt>Sted</dt>
+  <dd>{{ . }}</dd>
+  {{- end }}
+
+  {{- with .Params.tags }}
+  <dt>Emner</dt>
+  <dd>{{ delimit . ", " }}</dd>
+  {{- end }}
+</dl>
+
+{{ with .Params.links }}
+<p>
+  {{- range . }}
+  [<a href="{{ .url }}">{{ .name }}</a>]
+  {{- end }}
+</p>
+{{ end }}
+
+{{/* Featured image: check page resources first, then assets/media/ */}}
+{{ with .Params.image }}
+  {{ with .filename }}
+    {{ $img := $.Resources.GetMatch . }}
+    {{ if not $img }}
+      {{ $img = resources.Get (printf "media/%s" .) }}
+    {{ end }}
+    {{ with $img }}
+    <p><img src="{{ .RelPermalink }}" alt="{{ $.Title }}"></p>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<div>
+  {{ .Content }}
+</div>
+
+{{ end }}

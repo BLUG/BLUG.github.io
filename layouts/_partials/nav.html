@@ -1,0 +1,11 @@
+<nav aria-label="Hovedmeny">
+  <strong><a href="/">{{ site.Title }}</a></strong>
+  {{ with site.Menus.main }}
+  <nav aria-label="Sider">
+    {{- range . }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+  {{ end }}
+</nav>
+<hr>

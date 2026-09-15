@@ -1,0 +1,78 @@
+/* BLUG minimal theme */
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: "InterVariable", sans-serif;
+        font-optical-sizing: auto;
+    }
+}
+
+article img,
+main img {
+    max-width: 100%;
+}
+
+.poster {
+    position: relative;
+    container-type: inline-size;
+    background: linear-gradient(
+        132deg,
+        rgb(59, 55, 106) 0%,
+        rgb(0, 143, 186) 50%,
+        rgb(255, 149, 213) 100%
+    );
+    aspect-ratio: 16 / 9;
+    padding: 1rex;
+
+    & h3 {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        line-height: 130%;
+        & a {
+            padding: 1rex;
+            color: #fff;
+            display: block;
+            text-decoration: none;
+            border-radius: 1rex;
+            max-width: 60cqi;
+
+            font-size: 5cqi;
+        }
+    }
+    & dl {
+        margin: 0;
+        padding: 0;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 1rex;
+        border-radius: 1rex;
+        position: absolute;
+        bottom: 1rex;
+        left: 1rex;
+
+        & dt {
+            display: none;
+        }
+        & dd {
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        & dt.til + dd {
+            display: none;
+        }
+
+        & dt.location + dd {
+            border-left: 1px solid white;
+            padding-left: 1rex;
+            margin-left: 1rex;
+        }
+    }
+    & p {
+        display: none;
+    }
+}

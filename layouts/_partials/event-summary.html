@@ -1,0 +1,12 @@
+<article aria-label="{{ .Title }}" class="poster">
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <dl aria-label="Møteinformasjon">
+      <dt>Møtetidspunkt</dt><dd><time aria-label="Starttidspunkt" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2006-01-02 15:04" }}</time></dd>
+      {{- with .Params.authors }}
+      <dt>Foredragsholder</dt><dd>{{ delimit . ", " }}</dd>
+      {{- end }}
+      {{- with .Params.location }}
+      <dt>Sted</dt><dd>{{ . }}</dd>
+      {{- end }}</dl>
+  {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+</article>

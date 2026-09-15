@@ -1,0 +1,134 @@
+{{ define "main" }}
+
+{{/* ---- About ---- */}}
+{{ range where .Params.sections "id" "about" }}
+<section id="about" aria-label="Om BLUG">
+  {{ range .content.items }}
+  <h1>{{ .title }}</h1>
+  {{ $.RenderString .text }}
+  {{ end }}
+</section>
+<hr>
+{{ end }}
+
+{{/* ---- Next event ---- */}}
+{{ $events := where site.RegularPages "Section" "events" }}
+{{ $future := where $events "Date" "ge" now }}
+{{ $future_asc := sort $future "Date" "asc" }}
+
+<section id="events" aria-label="Neste møte">
+<h2>Neste møte</h2>
+{{ with first 1 $future_asc }}
+  {{ range . }}
+  <article class="poster">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <dl>
+        <dt class="fra">Fra</dt>
+        <dd><time aria-label="Starttidspunkt" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format "2006-01-02 15:04" }}</time></dd>
+{{ with .Params.date_end }}<dt class="til">Til</dt><dd><time aria-label="Sluttidspunkt" datetime="{{ (time .).Format "2006-01-02T15:04:05Z07:00" }}">{{ . | time.Format "15:04" }}</time></dd>{{ end }}
+        {{ with .Params.location }}<dt class="location">📍</dt><dd>{{ . }}</dd>{{ end }}
+    </dl>
+
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+  </article>
+  {{ end }}
+{{ else }}
+  <p><em>Ingen kommende møter akkurat nå.</em></p>
+{{ end }}
+</section>
+<hr>
+
+{{/* ---- Upcoming events (offset 1) ---- */}}
+<section id="upcoming-events" aria-label="Kommende møter">
+<h2>Kommende møter</h2>
+{{ $upcoming := after 1 $future_asc }}
+{{ with first 10 $upcoming }}
+  {{ range . }}
+  {{ partial "event-summary.html" . }}
+  {{ end }}
+{{ else }}
+  <p><em>Ingen flere kommende møter.</em></p>
+{{ end }}
+</section>
+<hr>
+
+{{/* ---- Past events ---- */}}
+{{ $past := where $events "Date" "lt" now }}
+{{ $past_desc := sort $past "Date" "desc" }}
+
+<section id="past-events" aria-label="Tidligere møter">
+<h2>Tidligere møter</h2>
+{{ with first 10 $past_desc }}
+  {{ range . }}
+  {{ partial "event-summary.html" . }}
+  {{ end }}
+{{ end }}
+</section>
+<hr>
+
+{{/* ---- Publications ---- */}}
+{{ $publications := where site.RegularPages "Section" "publication" }}
+{{ $publications_desc := sort $publications "Date" "desc" }}
+
+<section id="publications" aria-label="Siste presentasjoner">
+<h2>Siste presentasjoner</h2>
+{{ with first 10 $publications_desc }}
+  {{ range . }}
+  <article>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ range .Params.authors }}{{ . }}{{ end }}{{ if .Params.authors }}. {{ end }}{{ .Date | time.Format "2006" }}.
+    {{- range .Params.links }} [<a href="{{ .url }}">{{ .name }}</a>]{{ end -}}</p>
+  </article>
+  {{ end }}
+{{ end }}
+</section>
+<hr>
+
+{{/* ---- Projects ---- */}}
+{{ $projects := where site.RegularPages "Section" "project" }}
+
+<section id="projects" aria-label="Projects">
+<h2>Projects</h2>
+{{ range $projects }}
+<article>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+</article>
+{{ end }}
+</section>
+<hr>
+
+{{/* ---- Medlemmer ---- */}}
+{{ range where .Params.sections "id" "medlemmer" }}
+<section id="medlemmer" aria-label="Blogger og prosjekter">
+  <h2>{{ .content.title }}</h2>
+  {{ with .content.text }}<p>{{ . }}</p>{{ end }}
+  <ul>
+  {{ range .content.items }}
+    <li>{{ $.RenderString .description }}</li>
+  {{ end }}
+  </ul>
+</section>
+{{ end }}
+<hr>
+
+{{/* ---- Contact ---- */}}
+{{ range where .Params.sections "id" "contact" }}
+<section id="contact" aria-label="Kontakt">
+  <h2>{{ .content.title }}</h2>
+  {{ with .content.visit_title }}<h3>{{ . }}</h3>{{ end }}
+  {{ with .content.address }}
+    {{ range .lines }}<p>{{ . }}</p>{{ end }}
+  {{ end }}
+  {{ with .content.email }}<p>E-post: <a href="mailto:{{ . }}">{{ . }}</a></p>{{ end }}
+  {{ with .content.social }}
+  <ul>
+    {{ range . }}
+    <li><a href="{{ .url }}" rel="me">{{ .url }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ end }}
