@@ -27,6 +27,11 @@ Foredraget presenterer Dataverket - et kontrollplan med sikkerhet forankret i tr
 
 Visjonen er et «FEIDE for infrastruktur»: federert mellom norske operatører, ikke sentralisert hos én. Vi ser på arkitekturpremissene, hvorfor de gjør sertifisering mot f.eks ISO 27001 og NIS2 vesentlig billigere enn dagens alternativer, og hva som skal til for at det norske åpen kildekode-fellesskapet kan bygge dette sammen.
 
+## Slides
+
+- [Her finner du lysarkene fra foredraget](https://git.dataverket.org/dataverket/org/src/commit/9a914c62bd2d4eea07f6b0668f33c2a97c380a3b/docs/arrangement/2026-09-24-blug/content/foredrag.pdf)
+
+
 ## Om foredragsholderen
 
 Jan Ivar Beddari er åpen kildekode-entusiast bosatt i Volda, med 20 års erfaring fra norsk og europeisk skyinfrastruktur. Han var teknisk drivkraft i etableringsfasen av UH-sky / NREC, og har deretter hatt mange roller i ti år hos den europeiske skyleverandøren Safespring. Han ledet moderniseringen av plattformarkitekturen og bygde leveransen til European Open Science Cloud (EOSC). I 2026 startet han prosjektet Dataverket, et åpent kontrollplan for datasenter- og skyinfrastruktur. Han snakket om suveren norsk sky på Cloud Native Bergen 2025 og håper å gjøre det samme i år også!
