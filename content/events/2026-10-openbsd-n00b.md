@@ -1,10 +1,10 @@
 ---
 aliases:
-  - /talk/2026-09-dataverket/
+  - /talk/2026-09-openbsd/
 title: "A NOOB tries OpenBSD"
-date: "2026-09-24T19:00:00+02:00"
-date_end: "2026-09-24T21:00:00+02:00"
-publishDate: "2026-05-11T00:00:00+02:00"
+date: "2026-10-29T19:00:00+02:00"
+date_end: "2026-10-29T21:00:00+02:00"
+publishDate: "2026-09-28T00:00:00+02:00"
 summary: "A noob tries OpenBSD"
 event: "BLUG"
 location: "Media City Bergen - 'Pressekonferanse-rommet'"
