@@ -14,4 +14,21 @@
 &lt;/div&gt;&lt;figcaption&gt;
 Map
 &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;</description></item><item><title>Social anarchic, mad, and misbehaving agents collaboratively solving tasks</title><link>https://www.blug.linux.no/events/2026-05-agents/</link><pubDate>Thu, 28 May 2026 19:00:00 +0200</pubDate><guid>https://www.blug.linux.no/events/2026-05-agents/</guid><description>&lt;p&gt;Bergen (BSD and) Linux User Group fortsetter møteserien &amp;ldquo;Last Thursday&amp;rdquo;, i samarbeid med Vizrt.&lt;/p&gt;
+&lt;p&gt;We will look at the core concepts of how an agentic AI system works through an experiment in applying social and collaborative theory. The main focus of the talk will be a walkthrough of around 1500 lines of Python with minimal dependencies outside of the standard library.&lt;/p&gt;
+&lt;h2 id="om-foredragsholderen"&gt;Om foredragsholderen&lt;/h2&gt;
+&lt;p&gt;Bjarte Johansen has a PhD in natural language processing and works for Equinor as a specialist in data science. His core interests are in the intersection between language technology, machine learning, and classic AI algorithms.&lt;/p&gt;
+&lt;h2 id="ressurser"&gt;Ressurser&lt;/h2&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;If you wish to dig into the code that was presented and play around with it, you can find it on &lt;a href="https://github.com/ljos/teleology" target="_blank" rel="noopener"&gt;GitHub: https://github.com/ljos/teleology&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="praktisk"&gt;Praktisk&lt;/h2&gt;
+&lt;p&gt;Denne gangen er vi i &lt;strong&gt;Pressekonferanse-rommet&lt;/strong&gt; på &lt;strong&gt;Media City Bergen&lt;/strong&gt;, rommet befinner seg i første etasje. Møtet starter kl 19:00.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure id="figure-map"&gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://www.blug.linux.no/img/mcb_kart.png" alt="&amp;ldquo;Kart over MCB&amp;rdquo;" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Map
+&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;</description></item></channel></rss>
